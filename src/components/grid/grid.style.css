@@ -1,0 +1,13 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+.container {
+  width: 25%;
+  height: 25%;
+  margin: 0 auto;
+  vertical-align: middle;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
